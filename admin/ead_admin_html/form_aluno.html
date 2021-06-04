@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>mjailton.com.br</title>
+<link rel="shortcut icon" href="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="js/datatables/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/responsive.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="css/DataTables_boot.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/grade.css">
+		<link rel="stylesheet" type="text/css" href="css/auxiliar.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-m.css">
+		<!--font icones-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+</head>
+<body>
+	<div class="site">
+	<div class="base-topo">
+		<div class="conteudo">
+			<a href="" class="mobmenu"><i class="fas fa-bars"></i></a>
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<div class="usuario">
+					<div class="txt">
+						<h1> Talras goes</h1>
+						<h2>Administrador</h2>
+					</div>
+					<div class="thumb">
+						<img src="img/img-usuario.png">
+					</div>
+				</div>
+		</div>
+	</div>		
+<div class="conteudo"> 
+	<div class="menu">
+		<h1>painel de controle</h1>
+		<ul>
+			<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+			<li><a href="cliente.html"><i class="fas fa-list-alt"></i> Lista de Cliente</a></li>
+			<li><a href="curso.html"><i class="fas fa-list-alt"></i> Lista de Cursos</a></li>
+			<li><a href="aula.html"><i class="fas fa-list-alt"></i> lista de Aulas</a></li>
+			<li><a href="comentario.html"><i class="fas fa-list-alt"></i> lista de Comentários</a></li>
+			<li><a href="download.html"><i class="fas fa-list-alt"></i> Lista de Download</a></li>		
+			<li><a href="usuario.html"><i class="fas fa-list-alt"></i> Lista de Usuários</a></li>		
+			<li><a href=""><i class="fas fa-sign-in-alt"></i> Sair</a></li> 
+		</ul>
+	</div>	
+	
+	<div class="base-direita">     
+        <div class="caixa-home">
+			<section>
+				<h1 class="titulo"><i class="fas fa-list-alt"></i> cadastro de cliente</h1>
+				<div class="base-form">
+						<form action="" method="POST">
+								
+							
+							<div class="rows">
+									<div class="col-12 mb-3">
+										<label class="label">Nome</label>
+										<input name="cliente" value="" type="text" placeholder="Insira um nome" class="form-campo">
+									</div>
+									<div class="col-3 mb-3">
+										<label class="label">Cep</label>
+										<input name="cep" value="" type="text" placeholder="Insira seu CEP" class="form-campo">
+									</div>
+									
+									<div class="col-4 mb-3">				
+										<label class="label">Endereço</label>
+										<input name="endereco" value="" type="text" placeholder="Insira seu endereço" class="form-campo">
+									</div>
+								<div class="col-5 mb-3">
+									<label class="label">Complemento</label>
+									<input name="complemento" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+								</div>			
+								<div class="col-2 mb-3">
+									<label  class="label">Número</label>
+									<input name="numero" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+								</div>									
+								<div class="col-6 mb-3">
+									<label  class="label">Bairro</label>
+									<input name="bairro" value="" type="text" placeholder="Insira seu bairro" class="form-campo">
+								</div>
+								<div class="col-4 mb-3">
+									<label  class="label">Cidade</label>
+									<input name="cidade" value="" type="text" placeholder="Insira sua cidade" class="form-campo">	
+								</div>	
+							
+								<div class="col-4 mb-3">
+									<label  class="label">UF</label>
+									<select name="id_estado" class="form-campo">									
+									
+									</select>						
+								</div>								
+													
+								<div class="col-4 mb-3">
+									<label  class="label">Celular</label>
+									<input name="celular" value="" type="text" placeholder="Insira seu celular" class="form-campo">
+								</div>
+								<div class="col-4 mb-3">
+									<label  class="label">CPF</label>
+									<input name="cpf" value="" type="text" placeholder="Insira seu CPF" class="form-campo">
+								</div>
+								
+							
+								<div class="col-12 mb-3">
+									<label  class="label">Email</label>
+									<input name="email" value="" type="text" placeholder="Insira um email" class="form-campo">
+								</div>
+								<div class="col-6 mb-3">
+									<label  class="label">Data de cadastro</label>
+									<input name="data_cadastro" value="" type="date" placeholder="Insira sua data" class="form-campo">
+								</div>
+							
+								<div class="col-6 mb-3">
+									<label  class="label">Senha</label>
+									<input name="senha" value="" type="password" placeholder="Insira seu Site" class="form-campo">
+								</div>
+								<div class="col-12 mt-3">
+								<input type="hidden" name="id_cliente" value="" />
+								<input type="submit" value="Cadastrar" class="btn m-auto d-table">
+								</div>
+						</form>
+					</div>
+				</div>
+		</div>
+	</div> 
+		
+  </div>         
+           
+    </div>	
+    </body>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/datatables/js/jquery.dataTables.min.js"></script>
+		<script src="js/datatables/js/dataTables.responsive.min.js"></script>
+		<script src="js/jquery.form.js"></script>
+		<script src="js/jquery.mask.js"></script>
+		<script src="js/js.js"></script>
+</html>

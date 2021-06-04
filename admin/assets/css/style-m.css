@@ -1,0 +1,106 @@
+.mobmenu{display:none}
+
+/*1200*/
+@media (max-width:1200px){
+	.base-topo .logo { margin-left: 19%;}
+	.base-inicial {  padding: 10px 20px;}
+}
+
+/*1024*/
+@media (max-width:1024px){
+	.base-topo .logo { margin-left: 22%;}
+}
+
+/*768*/
+@media (max-width:768px){
+	.base-login .caixa-login {
+		width: 90%;
+		margin: 80px auto;
+		padding:20px 40px
+	}
+	.base-login{
+		margin-top:0;
+	}
+	.base-login .caixa-login .dg_senha{width:100%; padding:20px 40px}
+	.base-login .caixa-login .dg_senha p { padding-top: 36px;}
+}
+
+/*991*/
+@media (max-width:991px){
+	.menu {top: 55px;}
+	.mobmenu{display: block;
+    position: absolute;
+    z-index: 1;
+    left: 14px;
+    font-size: 1.9rem;
+    color: #fff;}
+	.menu{display:none}
+	.base-direita{padding-left:0;margin-left:0}
+	.base-topo .logo {
+    margin-left: 4%;
+    width: 32%;
+}
+}
+
+/*600*/
+@media (max-width:600px){
+	.base-topo .usuario{display:none}
+	.menu {
+		width: 260px;
+	}
+	.base-topo .logo {
+    margin-left: 6%;
+    width: 55%;
+	}
+	.base-form { padding: 40px 8%;}
+	.base-form.comentario {
+		padding: 20px 2%;
+	}
+	.base-form.comentario .col-10{
+		padding-left:0
+	}
+	.base-form.comentario .col-1{
+		display:none
+	}
+	.base-form.comentario .col-10.mb-4.pt-3{
+		padding-left:15px
+	}
+	.base-form.comentario .bg { padding: 13px;}
+	.base-form.comentario .bg .border{ border:0!important}
+	.base-form.comentario .bg .border.radius-4 { border:1px #ddd solid!important}
+}
+
+/*500*/
+@media (max-width:500px){
+	.conteudo {
+		padding: 0 5px;
+	}
+	.base-lista {padding: 20px 10px; min-height: auto;}
+	.base-topo .logo { margin-left: 11%;}
+	.menu {
+		width: 100%;
+	}
+	.menu ul li a { padding: 18px; font-size: 1em;}
+	.menu h1{display:none}
+}
+
+/*400*/
+@media (max-width:400px){
+	.base-login .caixa-login {
+		width: 95%;
+		margin: 10px auto;
+		padding:20px
+	}.menu {
+		width: 100%;
+	}
+	.menu ul li a { padding: 18px; font-size: 1em;}
+	.menu h1{display:none}
+	.base-topo .logo {
+		margin-left: 0;
+		width: 73%;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	
+}

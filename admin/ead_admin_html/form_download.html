@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>mjailton.com.br</title>
+<link rel="shortcut icon" href="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="js/datatables/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="js/datatables/css/responsive.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="css/DataTables_boot.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/grade.css">
+		<link rel="stylesheet" type="text/css" href="css/auxiliar.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-m.css">
+		<!--font icones-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+</head>
+<body>
+	<div class="site">
+	<div class="base-topo">
+		<div class="conteudo">
+			<a href="" class="mobmenu"><i class="fas fa-bars"></i></a>
+				<a href="index.html" class="logo"><img src="img/logo.png"></a>
+				<div class="usuario">
+					<div class="txt">
+						<h1> Talras goes</h1>
+						<h2>Administrador</h2>
+					</div>
+					<div class="thumb">
+						<img src="img/img-usuario.png">
+					</div>
+				</div>
+		</div>
+	</div>		
+<div class="conteudo"> 
+	<div class="menu">
+		<h1>painel de controle</h1>
+		<ul>
+			<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+			<li><a href="cliente.html"><i class="fas fa-list-alt"></i> Lista de Cliente</a></li>
+			<li><a href="curso.html"><i class="fas fa-list-alt"></i> Lista de Cursos</a></li>
+			<li><a href="aula.html"><i class="fas fa-list-alt"></i> lista de aulas</a></li>
+			<li><a href="comentario.html"><i class="fas fa-list-alt"></i> lista de Comentários</a></li>
+			<li><a href="download.html"><i class="fas fa-list-alt"></i> Lista de Download</a></li>		
+			<li><a href="usuario.html"><i class="fas fa-list-alt"></i> Lista de Usuários</a></li>		
+			<li><a href=""><i class="fas fa-sign-in-alt"></i> Sair</a></li> 
+		</ul>
+	</div>	
+	
+	<div class="base-direita">     
+	<div class="caixa-home">
+	<h1 class="titulo"><i class="fas fa-list-alt"></i> CADASTRO DE DOWNLOADS</h1>			
+	<div class="base-form alt">
+		<div class="p-3 border radius-4 px-4">
+		<span class="titulo2 h5 text-uppercase pt-3 mb-3">Cadastrar Download</span>
+		<form action="http://mjailton.com.br/agora2020/ead_admin/aula/salvar" method="Post">
+		<div class="rows">
+				<div class="col-12">
+					<span class="label">Titulo do arquivo</span> 
+					<input type="text" name="titulo" id="titulo" class="form-campo mb-3" />
+				</div>
+						
+				<div class="col-10">
+					<span class="label">Carregar arquivo</span>
+					<input type="file" id="arquivo"  class="form-campo mb-3"> 
+				</div>
+				<div class="col-2">
+					<input type="button"  id="bt_arquivo" value="Enviar" onclick="upload_download_aula()" class="btn width-100 btn-medio" />
+				</div>
+			</form>
+		</div>
+			<span class="titulo2 h5 text-uppercase pt-3 mb-3 mt-4">Lista de downloads</span>
+					<div class="rows">	
+						<div class="lista col-12">
+							<table cellpadding="0" cellspacing="0" border="0" class="tabela width-100">
+								<thead>
+									<tr>
+										<th align="center">ID</th>
+										<th align="center">Titulo</th>
+										<th align="center">Path</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center">1</td>
+										<td align="center">Download</td>
+										<td align="center">90304493405ijr4566rrtt</td>
+									</tr>
+									<tr>
+										<td align="center">1</td>
+										<td align="center">Download</td>
+										<td align="center">90304493405ijr4566rrtt</td>
+									</tr>
+									<tr>
+										<td align="center">1</td>
+										<td align="center">Download</td>
+										<td align="center">90304493405ijr4566rrtt</td>
+									</tr>	
+								</tbody>
+							</table>
+						</div>
+					</div>
+		</div>
+	
+</div>
+</div>      
+           
+    </div>	
+    </body>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/datatables/js/jquery.dataTables.min.js"></script>
+		<script src="js/datatables/js/dataTables.responsive.min.js"></script>
+		<script src="js/jquery.form.js"></script>
+		<script src="js/jquery.mask.js"></script>
+		<script src="js/js.js"></script>
+</html>

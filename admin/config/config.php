@@ -13,8 +13,8 @@ define('TIMEZONE',"America/Amazonas ");
 define('CAMINHO'            , realpath('./'));
 define("TITULO_SITE","mjailton-ligando vc ao mundo do conhecimento");
 
-define('URL_BASE', 'http://' . $_SERVER["HTTP_HOST"].'/projetos-tutiplast/mvc/admin/');
-define('URL_IMAGEM', "http://". $_SERVER['HTTP_HOST'] . "/projetos-tutiplast/mvc/ead_upload/");
+define('URL_BASE', 'http://' . $_SERVER["HTTP_HOST"].'/projetos/mvc/admin/');
+define('URL_IMAGEM', "http://". $_SERVER['HTTP_HOST'] . "/projetos/mvc/ead_upload/");
 
 define("SESSION_LOGIN","usuario_ead_logado");
 
